@@ -101,33 +101,45 @@ section {
 }
 
 .column-70 {
-  width: 69%;
+  width: 70%;
   float: left;
   height: 500px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  /*background-color: red;*/
 }
 
 .column-30 {
   width: 30%;
   float: left;
   height: 500px;
-  border: 1px solid black;
-  background-color: white;
+  /*border: 1px solid black;*/
+  /*background-color: blue;*/
 }
 
 .night-life h1 {
   font-family: 'Merriweather', serif;
 }
 
-.night-life img {
+.column-70 img {
     width: 100%;
-    padding: 20px;
 }
 
-.night-life .column-inner {
-  padding: 35px;
+.column-30 .column-inner  {
+  padding: 20px;
+}
+
+.column-70 .column-inner {
+      padding: 84px 60px;
+}
+
+.white-back {
   background-color: white;
 }
+
+/*.night-life .column-inner {
+  padding: 35px;
+  /*background-color: white;
+}*/
 
 /*MEDIA QUERIES*/
 
